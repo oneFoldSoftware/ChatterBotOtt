@@ -9,6 +9,9 @@ INSTALL EXTRA's
 ```
 pip uninstall chatterbot && python3 setup.py bdist_wheel && pip install dist/ChatterBot-1.1.0a7-py2.py3-none-any.whl
 
+python3 -m spacy download en_core_web_sm
+
+
 ```
 
 ChatterBot is a machine-learning based conversational dialog engine build in
