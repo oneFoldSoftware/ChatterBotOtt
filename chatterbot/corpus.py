@@ -47,6 +47,8 @@ def read_corpus(file_name):
     """
     try:
         import yaml
+        import collections.abc
+        collections.Hashable = collections.abc.Hashable
     except ImportError:
         message = (
             'Unable to import "yaml".\n'

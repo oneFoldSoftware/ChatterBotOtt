@@ -3,6 +3,13 @@
 # OTT | ChatterBot
 
 Fork Update for SQLAlchemy 2.14 and Python <= 3.10.12
+Removed SQL install tables.
+
+INSTALL EXTRA's
+```
+pip uninstall chatterbot && python3 setup.py bdist_wheel && pip install dist/ChatterBot-1.1.0a7-py2.py3-none-any.whl
+
+```
 
 ChatterBot is a machine-learning based conversational dialog engine build in
 Python which makes it possible to generate responses based on collections of
