@@ -1,6 +1,8 @@
 ![ChatterBot: Machine learning in Python](https://i.imgur.com/b3SCmGT.png)
 
-# ChatterBot
+# OTT | ChatterBot
+
+Fork Update for SQLAlchemy 2.14 and Python <= 3.10.12
 
 ChatterBot is a machine-learning based conversational dialog engine build in
 Python which makes it possible to generate responses based on collections of
